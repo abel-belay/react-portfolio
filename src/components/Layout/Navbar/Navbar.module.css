@@ -1,0 +1,42 @@
+.navbar {
+  width: 100%;
+  height: 6.5rem;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #99E6C5;
+}
+
+.content {
+  width: 90vw;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.content ul {
+  display: flex;
+}
+
+.content ul li a {
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.content ul li:last-child {
+  margin-left: 0;
+}
