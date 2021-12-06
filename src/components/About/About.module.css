@@ -1,12 +1,14 @@
 .about {
   width: 100%;
-  height: 20rem;
+  min-height: 20rem;
+  position: relative;
+  top: -4vh;
   background-color: white;
 }
 
 .top-rule {
   position: relative;
-  top: 1.5vh;
+  top: 1.2vh;
   border: none;
-  border-top: 3px solid #0B4129;
+  border-top: 0.5vh solid #0B4129;
 }

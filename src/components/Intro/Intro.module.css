@@ -2,7 +2,6 @@
   width: 100%;
   height: 98vh;
   position: relative;
-  top: 4vh;
   z-index: 10;
   display: inline-block;
 }
@@ -11,7 +10,6 @@
   height: 72%;
   max-height: calc((90vw) * (932/1086));
   max-width: 90%;
-  box-shadow: inset;
   position: absolute;
   bottom: 0%;
   left: 50%;
@@ -40,5 +38,11 @@
   }
   to {
     transform: translate(-50%) rotate(360deg);
+  }
+}
+
+@media (max-aspect-ratio: 9/14) {
+  .intro {
+    height: 75vh;
   }
 }

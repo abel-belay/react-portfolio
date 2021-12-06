@@ -13,7 +13,7 @@
 }
 
 .content {
-  width: 90vw;
+  width: 85vw;
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
@@ -31,8 +31,9 @@
 }
 
 .content ul li a {
-  font-size: 1.8rem;
   margin-left: 2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
   text-decoration: none;
   color: white;
 }
