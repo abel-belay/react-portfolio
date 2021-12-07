@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const ContentWrapper = styled.div`
   width: 85vw;
   margin: 8rem auto 0 auto;
+  padding-bottom: 8rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
 `;
 
 export const Header = styled.div`
@@ -16,9 +19,7 @@ export const Header = styled.div`
 
     margin-right: 2.5rem;
     color: white;
-    font-family: "Source Sans Pro", sans-serif;
     font-size: 3.44rem;
-    font-weight: bold;
     text-transform: uppercase;
 
     --stroke-color: black;
@@ -57,3 +58,11 @@ export const Header = styled.div`
         var(--stroke-color);
   }
 `;
+
+export const Description = styled.p`
+  width: 58%;
+  margin-top: 3.5rem;
+  color: #0B4129;
+  font-size: 1.5rem;
+  line-height: 1.8em;
+`
