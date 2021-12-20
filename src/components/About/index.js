@@ -1,10 +1,9 @@
-import styles from "./About.module.css";
-import { ContentWrapper, Header, Description } from "./AboutElements";
+import { Section, TopRule, ContentWrapper, Header, Description } from "./AboutElements";
 
 const About = () => {
   return (
-    <div className={styles.about}>
-      <hr className={styles["top-rule"]} />
+    <Section>
+      <TopRule />
       <ContentWrapper>
         <Header>
           <h2>About Me</h2>
@@ -19,7 +18,7 @@ const About = () => {
           culpa qui officia deserunt mollit anim id est laborum
         </Description>
       </ContentWrapper>
-    </div>
+    </Section>
   );
 };
 

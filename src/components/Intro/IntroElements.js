@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContentWrapper = styled.section`
+export const Section = styled.section`
   width: 100vw;
   height: 94vh;
   display: flex;
@@ -12,7 +12,7 @@ export const ContentWrapper = styled.section`
   }
 `;
 
-export const GraphicsWrapper = styled.div`
+export const ContentWrapper = styled.div`
   width: 90%;
   max-height: 80vh;
   max-width: calc(80vh * (1300 / 1320));
