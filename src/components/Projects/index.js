@@ -7,6 +7,8 @@ const Projects = () => {
       <ContentWrapper>
         <Project />
         <Project />
+        <Project />
+        <Project />
       </ContentWrapper>
     </Section>
   )
