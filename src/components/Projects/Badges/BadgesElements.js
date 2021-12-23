@@ -1,16 +1,22 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  margin-right: 8.4%;
-  transform: translateY(-50%);
+  width: 45%;
+  margin-left: 48%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0%;
+  transform: translateY(50%);
+  z-index: 2;
   display: flex;
   justify-content: flex-end;
 `;
 
 export const Badge = styled.div`
-  width: calc(12% + 8px);
+  width: 30%;
   aspect-ratio: 1/1;
-  margin-right: 0.875rem;
+  margin-right: 5%;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,8 +1,9 @@
 body {
   background-color: #99E6C5;
+  overflow-x: hidden;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   html {
     font-size: 12px;
   }
