@@ -8,9 +8,9 @@ export const Section = styled.section`
 
 export const TopRule = styled.hr`
   position: relative;
-  top: 1.2vh;
+  top: 0.8vh;
   border: none;
-  border-top: 0.5vh solid #0b4129;
+  border-top: 0.4vh solid #0b4129;
 `;
 
 export const ContentWrapper = styled.div`
@@ -20,6 +20,10 @@ export const ContentWrapper = styled.div`
   padding-bottom: 8rem;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 
 export const Header = styled.div`
@@ -75,7 +79,6 @@ export const Header = styled.div`
 `;
 
 export const Description = styled.p`
-  width: 58%;
   margin-top: 3.5rem;
   color: #0b4129;
   font-size: 1.2rem;

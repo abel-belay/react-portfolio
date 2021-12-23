@@ -1,4 +1,4 @@
-import { Section, ContentWrapper } from "./ProjectsElements";
+import { Section, ContentWrapper, Button } from "./ProjectsElements";
 import Project from "./Project";
 
 const Projects = () => {
@@ -10,6 +10,7 @@ const Projects = () => {
         <Project />
         <Project />
       </ContentWrapper>
+      <Button>See More Work</Button>
     </Section>
   )
 }

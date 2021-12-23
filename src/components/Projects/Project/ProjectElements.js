@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Card = styled.div`
+export const Card = styled.a`
   width: 38vw;
   max-width: 500px;
   height: 44vw;
@@ -12,6 +12,12 @@ export const Card = styled.div`
   border-radius: 0.625rem;
   box-shadow: 0px 0px 0px 0.15rem #0b4129;
   overflow-x: hidden;
+  transition: 0.3s linear;
+
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-8px);
+  }
 
   @media (max-width: 850px) {
     width: 80vw;
@@ -83,7 +89,7 @@ export const DescriptionWrapper = styled.div`
   }
 
   @media (min-width: 850px) {
-    font-size: 14px
+    font-size: 14px;
   }
 
   @media (min-width: 1100px) {
