@@ -14,8 +14,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Badge = styled.div`
-  width: 30%;
-  aspect-ratio: 1/1;
+  width: 8vw;
+  min-width: 3rem;
+  height: 8vw;
+  min-height: 3rem;
   margin-right: 5%;
   display: flex;
   justify-content: center;
@@ -30,5 +32,10 @@ export const Badge = styled.div`
   & > img {
     max-width: 65%;
     max-height: 65%;
+  }
+
+  @media (min-width: 850px) {
+    width: 5vw;
+    height: 5vw;
   }
 `;
