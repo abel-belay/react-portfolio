@@ -20,6 +20,7 @@ export const ContentWrapper = styled.div`
   position: relative;
   bottom: -1.5rem;
   z-index: 2;
+  overflow: hidden;
 
   & > .circle-text {
     width: 95%;
