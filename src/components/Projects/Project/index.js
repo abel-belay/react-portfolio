@@ -1,21 +1,16 @@
 import { Card, ImageWrapper, DescriptionWrapper } from "./ProjectElements";
 import Badges from "../Badges";
-import sampleWebsitePNG from "../../../assets/sample-website.png";
 
-const Project = () => {
+const Project = (props) => {
   return (
     <Card>
       <ImageWrapper>
-        <img src={sampleWebsitePNG} alt="" />
+        <img src={props.images[0]} alt="" />
         <Badges />
       </ImageWrapper>
       <DescriptionWrapper>
-        <h3>YelpCamp</h3>
-        <p>
-          YelpCamp is a campsite sharing platform where users can search, share,
-          and review their favourite campsites. Built with EJS, Express, NodeJS,
-          and MongoDB.
-        </p>
+        <h3>{props.name}</h3>
+        <p>{props.description}</p>
       </DescriptionWrapper>
     </Card>
   );

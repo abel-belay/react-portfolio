@@ -40,7 +40,7 @@ export const ImageWrapper = styled.div`
     left: 0;
     right: 0;
     content: "";
-    background: rgba(153, 230, 197, 0.16);
+    background: rgba(153, 230, 197, 0.01);
   }
 
   & > img {
