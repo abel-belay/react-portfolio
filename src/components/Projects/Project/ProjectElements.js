@@ -7,6 +7,7 @@ export const Card = styled.a`
   max-height: 540px;
   margin-bottom: 4.875rem;
   overflow: hidden;
+  text-decoration: none;
 
   background-color: white;
   border-radius: 0.625rem;

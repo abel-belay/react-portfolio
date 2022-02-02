@@ -14,10 +14,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Badge = styled.div`
-  width: 8vw;
-  min-width: 3rem;
-  height: 8vw;
-  min-height: 3rem;
+  width: 25%;
+  aspect-ratio: 1/1;
   margin-right: 5%;
   display: flex;
   justify-content: center;

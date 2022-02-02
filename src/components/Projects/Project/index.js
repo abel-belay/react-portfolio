@@ -3,7 +3,7 @@ import Badges from "../Badges";
 
 const Project = (props) => {
   return (
-    <Card>
+    <Card href={props.href} target="_blank">
       <ImageWrapper>
         <img src={props.images[0]} alt="" />
         <Badges />
