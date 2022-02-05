@@ -1,4 +1,4 @@
-import { Section, ContentWrapper, Button } from "./ProjectsElements";
+import { Section, ContentWrapper } from "./ProjectsElements";
 import Project from "./Project";
 import sampleWebsitePNG from "../../assets/sample-website.png";
 import convoScreenshot1PNG from "../../assets/convo-screenshot-1.png";
@@ -42,9 +42,9 @@ const Projects = () => {
   ));
 
   return (
-    <Section>
+    <Section id="projects-section">
       <ContentWrapper>{projectComponents}</ContentWrapper>
-      <Button>See More Work</Button>
+      {/* <Button>See More Work</Button> */}
     </Section>
   );
 };

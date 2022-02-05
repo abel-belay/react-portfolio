@@ -4,7 +4,7 @@ import circleTextImage from "../../assets/circle-text.png";
 
 const Intro = () => {
   return (
-    <Section>
+    <Section id="intro-section">
       <ContentWrapper>
         <img className="circle-text" src={circleTextImage} alt="" />
         <img className="avatar" src={avatarImage} alt="" />

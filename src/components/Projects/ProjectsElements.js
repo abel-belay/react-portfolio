@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   width: 100vw;
-  padding-bottom: 4rem;
+  padding-top: 9rem;
   position: relative;
-  top: -4.875rem;
+  top: -13.875rem;
 `;
 
 export const ContentWrapper = styled.div`

@@ -20,6 +20,10 @@
   align-items: center;
 }
 
+.content > a {
+  text-decoration: none;
+}
+
 .content h3 {
   font-size: 3rem;
   font-weight: bold;

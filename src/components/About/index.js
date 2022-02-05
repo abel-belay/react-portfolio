@@ -8,7 +8,7 @@ import {
 
 const About = () => {
   return (
-    <Section>
+    <Section id="about-section">
       <TopRule />
       <ContentWrapper>
         <Header>
