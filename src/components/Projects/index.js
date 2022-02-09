@@ -10,9 +10,10 @@ const Projects = () => {
     {
       name: "Convo",
       description:
-        "YelpCamp is a campsite sharing platform where users can search, share, and review their favourite campsites. Built with EJS, Express, NodeJS, and MongoDB.",
+        "Convo is a web-based messaging application, allowing to message your friends whether you're on desktop or mobile. Built using the MERN stack.",
       images: [convoScreenshot1PNG],
       href: "https://convo-talk.herokuapp.com",
+      technologies: ["react", "express", "mongoDB"],
     },
     {
       name: "Mighty Draw",
@@ -20,6 +21,7 @@ const Projects = () => {
         "Mighty Draw is an online drawing application that was built in one week for the Mintbean 2021 November Hackathon and was rewarded as being within the top 10% of projects.",
       images: [mightDrawScreenshotPNG],
       href: "https://mighty-draw.netlify.app",
+      technologies: ["react"],
     },
     {
       name: "YelpCamp",
@@ -27,13 +29,15 @@ const Projects = () => {
         "YelpCamp is a campsite sharing platform where users can search, share, and review their favourite campsites. Built with EJS, Express, NodeJS, and MongoDB.",
       images: [sampleWebsitePNG],
       href: "https://protected-depths-19609.herokuapp.com",
+      technologies: ["ejs", "express", "mongoDB"],
     },
     {
       name: "HAIRR",
       description:
-        "YelpCamp is a campsite sharing platform where users can search, share, and review their favourite campsites. Built with EJS, Express, NodeJS, and MongoDB.",
+        "HAIRR is an online directory for hair salons. Business owners can post their businesses and users can find and review these salons. Built using MERN stack.",
       images: [hairScreenshot1PNG],
       href: "https://hairr-app.herokuapp.com",
+      technologies: ["react", "express", "mongoDB"],
     },
   ];
 

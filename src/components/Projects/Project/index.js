@@ -6,7 +6,7 @@ const Project = (props) => {
     <Card href={props.href} target="_blank">
       <ImageWrapper>
         <img src={props.images[0]} alt="" />
-        <Badges />
+        <Badges technologies={props.technologies} />
       </ImageWrapper>
       <DescriptionWrapper>
         <h3>{props.name}</h3>

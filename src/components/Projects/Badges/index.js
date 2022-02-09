@@ -1,22 +1,36 @@
 import { Wrapper, Badge } from "./BadgesElements";
-import mongoDBLogoPNG from "../../../assets/mongodb-logo-dark.png";
-import ejsLogoPNG from "../../../assets/ejs-logo-dark.png";
-import expressLogoPNG from "../../../assets/express-logo.png";
+import mongoDB from "../../../assets/mongodb-logo.png";
+import ejs from "../../../assets/ejs-logo-dark.png";
+import express from "../../../assets/express-logo.png";
+import react from "../../../assets/react-logo.png";
 
-const Badges = () => {
-  return (
-    <Wrapper>
-      <Badge>
-        <img src={mongoDBLogoPNG} alt="" />
+const Badges = (props) => {
+  const badges = props.technologies.map((technology, i) => {
+    let logo = null;
+    switch (technology) {
+      case "react":
+        logo = react;
+        break;
+      case "ejs":
+        logo = ejs;
+        break;
+      case "mongoDB":
+        logo = mongoDB;
+        break;
+      case "express":
+        logo = express;
+        break;
+      default:
+        logo = express;
+    }
+    return (
+      <Badge key={"badge-" + i}>
+        <img src={logo} alt="" />
       </Badge>
-      <Badge>
-        <img src={ejsLogoPNG} alt="" />
-      </Badge>
-      <Badge>
-        <img src={expressLogoPNG} alt="" />
-      </Badge>
-    </Wrapper>
-  )
-}
+    );
+  });
+
+  return <Wrapper>{badges}</Wrapper>;
+};
 
 export default Badges;
